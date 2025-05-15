@@ -1,0 +1,146 @@
+#mainbody {
+    background-color: black;
+    margin: 0px;
+}
+.menu {
+    height: 90px;
+}
+#searchtext {
+    height: 40px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.menu > i {
+    color: white;
+    font-size: 23px;
+    margin-left: 30px;
+
+}
+.menu > i:active {
+    transform: scale(1.1);
+}
+a {
+    height: 45px;
+    width: 90px;
+    background-color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    box-shadow: 2px 2px 20px gray;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    margin-top: 20px;
+    padding-top: 7px;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    transform: scale(1.06);
+}
+.itembody {
+    display: grid;
+    grid-row: inherit;
+    grid-column: 2;
+    grid-template-columns: 90% 10%;
+}
+.catagories {
+    
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+.catagories > label{
+    color: white;
+    margin-top: 5px;
+}
+.itemsection {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 50px;
+    align-items: center;
+    border: 1px solid green;
+}
+.items {
+    border: 1px solid green;
+    height: 400px;
+    width: 250px;
+}
+
+
+/* Media part for responsive layout */
+ /* @media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #searchtext {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .menu > i,
+    a {
+        margin-top: 10px;
+        position: static;
+    }
+
+    .itembody {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .itemsection {
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .items {
+        width: 45%;
+        height: 300px;
+    }
+
+    .catagories {
+        width: 100%;
+        border: none;
+        align-items: center;
+    }
+
+    .catagories > label {
+        margin: 5px 0;
+    }
+} */
+
+/* Mobile screens (480px and below) */
+/* @media (max-width: 480px) {
+    #searchtext {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .items {
+        width: 90%;
+        height: 250px;
+    }
+
+    .menu {
+        padding: 10px;
+    }
+
+    a {
+        width: 80%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .catagories {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+} */
